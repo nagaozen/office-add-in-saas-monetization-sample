@@ -83,7 +83,7 @@ When you're finished, the screen will indicate that all permissions have been gr
 
 1. In the command line, change to the **.\Deployment** directory.
 
-1. Run the script `Connect-Graph `
+1. Run the script `Connect-Graph -Scopes "User.Read","Application.ReadWrite.All" -TenantId '[PUT_YOUR_TENANTID_HERE]'`
 
    ![Code Path](Images/3.png)
 
