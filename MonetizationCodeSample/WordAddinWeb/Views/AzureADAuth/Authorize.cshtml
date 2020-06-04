@@ -13,7 +13,7 @@ Licensed under the MIT License.
     <script>
         Office.initialize = function (reason) {
             $(document).ready(function () {
-             console.log("Office.context.ui.messageParent" + '@Html.Raw(ViewBag.Message)')
+             console.log(`Office.context.ui.messageParent ${@Html.Raw(ViewBag.Message)}`)
              Office.context.ui.messageParent('@Html.Raw(ViewBag.Message)');
             });
          }
